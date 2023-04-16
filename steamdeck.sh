@@ -5,7 +5,7 @@ sudo passwd deck
 sudo steamos-readonly disable
 # vibrantDeck
 echo 'Installing vibrantDeck'
-export url='https://github.com/SteamDeckHomebrew/decky-loader/raw/main/dist/install_prerelease.sh' && sh -c "$(curl -fsSL $url)"
+export url='https://github.com/SteamDeckHomebrew/decky-loader/raw/main/dist/install_prerelease.sh' && sh -c "$(curl -KfsSL $url)"
 echo 'Success'
 
 # Herotic
