@@ -3,6 +3,7 @@
 # privilege escalation
 sudo passwd deck
 sudo steamos-readonly disable
+sudo bash
 # vibrantDeck
 echo 'Installing vibrantDeck'
 export url='https://github.com/SteamDeckHomebrew/decky-loader/raw/main/dist/install_prerelease.sh' && sh -c "$(curl -kfsSL $url)"
